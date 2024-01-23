@@ -8,7 +8,7 @@ from telethon import __version__ as s
 
 from Exon import Abishnoi as pbot
 
-ABISHNOIX = "https://te.legra.ph/file/abfc49a1cc4b5629dc8cd.jpg"
+NIHAL = "https://telegra.ph/file/cb10ee6f4570a535268de.jpg"
 
 
 @pbot.on_message(filters.command("repo"))
@@ -17,7 +17,7 @@ async def repo(_, message):
         photo=ABISHNOIX,
         caption=f"""✨ **ʜᴇʏ {message.from_user.mention},**
 
-**ᴏᴡɴᴇʀ  : [ᴊᴇᴏʟ](https://t.me/jeol_tg)**
+**ᴏᴡɴᴇʀ  : [NIHAL](https://t.me/nihh_all)**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀꜱɪᴏɴ :** `{o}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{s}`
@@ -28,7 +28,7 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "•Repo•", url="https://github.com/Itz-JEOL/ROCKY"
+                        "•Repo•", url="https://github.com/darkhacker34/ROCKY"
                     ),
                 ]
             ]
